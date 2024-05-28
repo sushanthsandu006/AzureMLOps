@@ -12,8 +12,6 @@ from sklearn.linear_model import LogisticRegression
 # define functions
 def main(args):
     # TO DO: enable autologging
-
-
     # read data
     df = get_csvs_df(args.training_data)
 
